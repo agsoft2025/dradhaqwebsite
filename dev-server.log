@@ -1,0 +1,59 @@
+
+> drdha-q-healthcare-website@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1607ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.6s (455 modules)
+ GET / 200 in 2845ms
+ ✓ Compiled in 280ms (234 modules)
+ ✓ Compiled in 467ms (220 modules)
+ ✓ Compiled / in 245ms (221 modules)
+ GET / 200 in 469ms
+ GET / 200 in 397ms
+ ✓ Compiled in 4.1s (234 modules)
+ ✓ Compiled in 1135ms (234 modules)
+ ✓ Compiled in 534ms (234 modules)
+ ✓ Compiled in 319ms (234 modules)
+ ✓ Compiled in 1360ms (234 modules)
+ ✓ Compiled in 2.2s (234 modules)
+ ✓ Compiled in 2.1s (234 modules)
+ ✓ Compiled in 1697ms (234 modules)
+ ✓ Compiled in 841ms (234 modules)
+ ✓ Compiled in 612ms (234 modules)
+ ✓ Compiled in 578ms (234 modules)
+ ✓ Compiled in 616ms (219 modules)
+ ✓ Compiled in 407ms (219 modules)
+ ✓ Compiled in 557ms (233 modules)
+ ✓ Compiled in 718ms (233 modules)
+ ✓ Compiled in 405ms (219 modules)
+ ✓ Compiled in 416ms (233 modules)
+ ✓ Compiled in 321ms (233 modules)
+ ✓ Compiled in 332ms (233 modules)
+ ✓ Compiled in 193ms (233 modules)
+ ✓ Compiled in 595ms (219 modules)
+ ✓ Compiled in 418ms (219 modules)
+ ✓ Compiled in 422ms (233 modules)
+ ✓ Compiled in 174ms (233 modules)
+ ✓ Compiled in 452ms (233 modules)
+ ✓ Compiled in 796ms (233 modules)
+ ✓ Compiled in 247ms (233 modules)
+ ✓ Compiled in 264ms (233 modules)
+ ✓ Compiled in 211ms (233 modules)
+ ✓ Compiled in 181ms (233 modules)
+ ✓ Compiled in 295ms (233 modules)
+ ✓ Compiled in 829ms (233 modules)
+ ✓ Compiled in 244ms (233 modules)
+ ✓ Compiled in 328ms (233 modules)
+ ✓ Compiled in 405ms (233 modules)
+ ✓ Compiled in 335ms (233 modules)
+ ✓ Compiled in 373ms (233 modules)
+ ✓ Compiled in 280ms (233 modules)
+ ✓ Compiled in 338ms (233 modules)
+ ✓ Compiled in 247ms (233 modules)
+ ✓ Compiled in 407ms (233 modules)
+ ✓ Compiled in 189ms (233 modules)
