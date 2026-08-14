@@ -2,9 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
-const LOGO_URL =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuAMpNsDUuQVj7vSr_le4enF3f4x1h6HS9_Fj2kU0S22Zqb0u_Ai82KQ1Mw-8-xGdT55JAmSt9Kw2pg0Bkv6bvASjMd1mgLS__VUZSSbvyDIUko_6yuCVArGXLpiRU1LKgz7KqwRyXljZkM_kECrMcJGAiVS2q1OzSM8VTYu6O4Po3tAjQHVNnfvEm6x7CcqgypW4SYGR0GkLpYe7uIUSUpRnPFwqTALyvKXM61x8e0A6HnVbCwFZUUMCA';
+import Image from 'next/image';
 
 const SERVICE_LINKS = [
   { href: '/services', label: 'Healthcare Quality Consulting' },
@@ -84,12 +82,15 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] border-b border-surface-dim">
-      <div className="h-20 max-w-[1280px] mx-auto px-4 md:px-grid-margin-desktop flex items-center justify-between gap-8">
+      <div className="h-[7rem] max-w-[1280px] mx-auto px-4 md:px-grid-margin-desktop flex items-center justify-between gap-8">
         <Link href="/" className="flex items-center gap-4">
-          <img alt="Drdha Q Healthcare Logo" className="h-8 w-auto object-contain" src={LOGO_URL} />
-          <span className="font-display-lg tracking-[-0.02em] text-xl md:text-2xl font-bold text-primary">
-            Drdha Q
-          </span>
+          <Image
+            src="/images/mainlogo.png"
+            alt="Drdha Q Healthcare Logo"
+            className="h-20 w-auto object-contain"
+            width={200}
+            height={80}
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6 xl:gap-8">

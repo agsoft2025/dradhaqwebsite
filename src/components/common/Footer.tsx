@@ -1,7 +1,8 @@
-import Link from 'next/link';
+'use client';
 
-const LOGO_URL =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuAMpNsDUuQVj7vSr_le4enF3f4x1h6HS9_Fj2kU0S22Zqb0u_Ai82KQ1Mw-8-xGdT55JAmSt9Kw2pg0Bkv6bvASjMd1mgLS__VUZSSbvyDIUko_6yuCVArGXLpiRU1LKgz7KqwRyXljZkM_kECrMcJGAiVS2q1OzSM8VTYu6O4Po3tAjQHVNnfvEm6x7CcqgypW4SYGR0GkLpYe7uIUSUpRnPFwqTALyvKXM61x8e0A6HnVbCwFZUUMCA';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 const ABOUT_FOOTER_COLUMNS = [
   {
@@ -69,10 +70,17 @@ function HomeFooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-grid-gutter mb-16">
           <div className="col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <img alt="Logo" className="h-6 w-auto brightness-0 invert" src={LOGO_URL} />
-              <span className="font-display-lg tracking-[-0.02em] text-xl font-bold text-on-primary">
-                Drdha Q
-              </span>
+              <div className="flex items-center mb-6">
+                <div className="bg-white rounded-lg px-4 py-3 shadow-sm">
+                  <Image
+                    src="/images/mainlogo.png"
+                    alt="Drdha Q Healthcare Logo"
+                    className="h-[7.5rem] w-auto object-contain"
+                    width={200}
+                    height={80}
+                  />
+                </div>
+              </div>
             </div>
             <p className="text-body-md font-body-md text-on-primary-container/80">
               Excellence in clinical auditing and healthcare transformation consulting.
