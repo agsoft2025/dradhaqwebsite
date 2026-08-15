@@ -16,9 +16,9 @@ const SERVICE_LINKS = [
 ];
 
 const RESOURCE_LINKS = [
-  { href: '/#resources', label: 'Insights / Articles' },
-  { href: '#', label: 'FAQs' },
-  { href: '#', label: 'Guides / Checklists' },
+  { href: '/resources/articles', label: 'Insights / Articles' },
+  { href: '/resources/faqs', label: 'FAQs' },
+  { href: '/resources/guides', label: 'Guides / Checklists' },
 ];
 
 function NavLink({

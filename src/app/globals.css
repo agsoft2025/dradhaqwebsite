@@ -52,6 +52,17 @@ a {
   display: block;
 }
 
+/* Fix dropdown hover gap - create invisible bridge */
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -16px;
+  left: 0;
+  right: 0;
+  height: 16px;
+  background: transparent;
+}
+
 /* Headings */
 h1,
 h2,
