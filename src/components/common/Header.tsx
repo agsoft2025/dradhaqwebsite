@@ -9,8 +9,8 @@ const SERVICE_LINKS = [
   { href: '/services/healthcare-audit', label: 'Healthcare Audit & Assessment' },
   { href: '/services/iso-certification', label: 'ISO Certification Readiness' },
   { href: '/services/accreditation-support', label: 'Accreditation Support' },
-  { href: '/services', label: 'Quality Management Systems' },
-  { href: '/services', label: 'Clinical Governance & Patient Safety' },
+  { href: '/services/quality-management-systems', label: 'Quality Management Systems' },
+  { href: '/services/clinical-governance', label: 'Clinical Governance & Patient Safety' },
   { href: '/services/training', label: 'Training & Capacity Building' },
   { href: '/services/healthcare-sustainability', label: 'Healthcare Sustainability' },
 ];
