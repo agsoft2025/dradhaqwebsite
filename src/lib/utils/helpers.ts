@@ -8,10 +8,6 @@ export const generateLeadId = (): string => {
   return `LEAD-${timestamp}-${random}`.toUpperCase();
 };
 
-export const formatTimestamp = (date: Date = new Date()): string => {
-  return date.toISOString();
-};
-
 export const getClientIp = (req: any): string => {
   return (
     req.headers['x-forwarded-for']?.split(',')[0].trim() ||
@@ -77,3 +73,19 @@ export const getCurrentDateTime = (): string => {
     second: '2-digit',
   });
 };
+
+export function formatTimestamp(): string {
+  const now = new Date();
+
+  return new Intl.DateTimeFormat('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+  })
+    .format(now)
+    .replace(',', '');
+}

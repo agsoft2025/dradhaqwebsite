@@ -56,8 +56,8 @@ const ABOUT_FOOTER_COLUMNS = [
   {
     title: 'Legal',
     links: [
-      { href: '/privacy-policy', label: 'Privacy' },
-      { href: '#', label: 'Terms' },
+      { href: '/privacy-policy', label: 'Privacy Policy' },
+      { href: '/terms-and-conditions', label: 'Terms & Conditions' },
       { href: '#', label: 'Cookies' },
     ],
   },
@@ -107,11 +107,11 @@ function HomeFooter() {
             <Link href="/privacy-policy" className="text-body-md font-body-md hover:text-on-primary transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/standards" className="text-body-md font-body-md hover:text-on-primary transition-colors">
-              Certifications
+            <Link href="/terms-and-conditions" className="text-body-md font-body-md hover:text-on-primary transition-colors">
+              Terms & Conditions
             </Link>
             <Link href="/standards" className="text-body-md font-body-md hover:text-on-primary transition-colors">
-              Compliance
+              Certifications
             </Link>
           </div>
           <div className="flex flex-col gap-4">

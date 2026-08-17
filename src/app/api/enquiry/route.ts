@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { validateEnquiryForm, sanitizeFormData } from '@/lib/validation/form';
 import { generateLeadId, formatTimestamp, logError, logInfo } from '@/lib/utils/helpers';
+import { saveToGoogleSheets } from '@/lib/api/sheets';
 import type { EnquiryFormData, ApiResponse } from '@/types';
 
 export async function POST(request: NextRequest) {
@@ -9,6 +10,7 @@ export async function POST(request: NextRequest) {
 
     // Server-side validation
     const errors = validateEnquiryForm(data);
+
     if (errors.length > 0) {
       return NextResponse.json(
         {
@@ -35,13 +37,29 @@ export async function POST(request: NextRequest) {
       consent: data.consent ?? false,
     } as EnquiryFormData;
 
-    // TODO: Integrate with Google Sheets
-    // const sheetsResult = await saveToGoogleSheets(leadData);
+    // Save enquiry to Google Sheets
+    const sheetsResult = await saveToGoogleSheets(leadData);
+
+    if (!sheetsResult.success) {
+      logError(sheetsResult.error, 'Google Sheets submission');
+
+      return NextResponse.json(
+        {
+          success: false,
+          message: 'Your enquiry could not be saved. Please try again.',
+          error: 'Failed to save enquiry',
+        } as ApiResponse,
+        { status: 500 }
+      );
+    }
 
     // TODO: Send WhatsApp notification
     // const whatsappResult = await sendWhatsAppNotification(leadData);
 
-    logInfo('New enquiry received', { leadId, email: leadData.email });
+    logInfo('New enquiry received', {
+      leadId,
+      email: leadData.email,
+    });
 
     return NextResponse.json(
       {
@@ -53,6 +71,7 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     logError(error, 'POST /api/enquiry');
+
     return NextResponse.json(
       {
         success: false,
