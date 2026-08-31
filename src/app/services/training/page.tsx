@@ -381,7 +381,7 @@ export default function Training() {
                   <div className="relative z-10">
                     <h2 className="text-headline-lg font-headline-lg mb-4 text-on-primary">Design Your Training Plan</h2>
                     <p className="text-body-md font-body-md text-on-primary-container/80 mb-12">
-                      Connect with our educational consultants to discuss your organization's specific capacity-building needs and regulatory challenges.
+                      Connect with our educational consultants to discuss your organization’s specific capacity-building needs and regulatory challenges.
                     </p>
                     <div className="flex flex-col gap-6">
                       <div className="flex items-center gap-4">

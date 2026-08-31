@@ -8,7 +8,14 @@ export const generateLeadId = (): string => {
   return `LEAD-${timestamp}-${random}`.toUpperCase();
 };
 
-export const getClientIp = (req: any): string => {
+interface ClientRequest {
+  headers: Record<string, string | undefined>;
+  socket?: {
+    remoteAddress?: string;
+  };
+}
+
+export const getClientIp = (req: ClientRequest): string => {
   return (
     req.headers['x-forwarded-for']?.split(',')[0].trim() ||
     req.headers['x-real-ip'] ||
@@ -41,14 +48,14 @@ export const isProduction = (): boolean => {
   return process.env.NODE_ENV === 'production';
 };
 
-export const logError = (error: any, context?: string): void => {
+export const logError = (error: unknown, context?: string): void => {
   if (!isProduction()) {
     console.error(`[ERROR ${context || ''}]`, error);
   }
   // Could be extended to send to error tracking service
 };
 
-export const logInfo = (message: string, data?: any): void => {
+export const logInfo = (message: string, data?: unknown): void => {
   if (!isProduction()) {
     console.log(`[INFO] ${message}`, data);
   }

@@ -45,3 +45,9 @@ lerna-debug.log*
 
 # OS
 Thumbs.db
+
+# sst
+.sst
+
+# open-next
+.open-next

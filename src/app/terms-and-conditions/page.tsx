@@ -24,7 +24,7 @@ export default function TermsAndConditions() {
               </nav>
               <h1 className="text-display-lg font-display-lg text-primary">Terms & Conditions / Disclaimer</h1>
               <p className="text-body-lg font-body-lg text-on-surface-variant mt-4 max-w-3xl">
-                Last updated: [Date] — This policy should be reviewed and approved by the company's legal advisor before publication.
+                Last updated: [Date] — This policy should be reviewed and approved by the company’s legal advisor before publication.
               </p>
             </div>
           </section>
@@ -46,7 +46,7 @@ export default function TermsAndConditions() {
                 <section>
                   <h2 className="text-headline-lg font-headline-lg text-primary mb-4">2. Purpose of the Website</h2>
                   <p className="text-body-md font-body-md text-on-surface-variant mb-4">
-                    This website provides information about Drdha Q Healthcare LLP's services in the following areas:
+                    This website provides information about Drdha Q Healthcare LLP’s services in the following areas:
                   </p>
                   <ul className="list-disc pl-6 space-y-2 text-body-md font-body-md text-on-surface-variant">
                     <li>Healthcare quality consulting</li>
@@ -161,7 +161,7 @@ export default function TermsAndConditions() {
 
                 <section className="bg-surface-container-low p-6 rounded-lg border-l-4 border-secondary">
                   <p className="text-label-md font-label-md text-on-surface-variant">
-                    <strong>Legal Disclaimer:</strong> These Terms & Conditions are provided as a template and should be reviewed and approved by the company's legal advisor before publication to ensure compliance with applicable laws and regulations.
+                    <strong>Legal Disclaimer:</strong> These Terms & Conditions are provided as a template and should be reviewed and approved by the company’s legal advisor before publication to ensure compliance with applicable laws and regulations.
                   </p>
                 </section>
               </div>

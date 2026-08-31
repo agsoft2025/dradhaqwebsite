@@ -131,7 +131,7 @@ export default function AccreditationSupport() {
               <div className="text-center mb-16">
                 <h2 className="text-headline-lg font-headline-lg mb-4">Comprehensive Coverage</h2>
                 <p className="text-body-lg font-body-lg text-on-surface-variant max-w-2xl mx-auto">
-                  Tailored roadmaps for the world's most demanding healthcare standards.
+                  Tailored roadmaps for the world’s most demanding healthcare standards.
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-grid-gutter">
@@ -156,7 +156,7 @@ export default function AccreditationSupport() {
                     <span className="text-display-lg font-display-lg text-2xl text-primary">NABH</span>
                   </div>
                   <h3 className="text-headline-md font-headline-md mb-3">National Accreditation Board</h3>
-                  <p className="text-body-md font-body-md text-on-surface-variant mb-6">Structuring your hospital's operations to meet national excellence frameworks for hospitals and healthcare providers.</p>
+                  <p className="text-body-md font-body-md text-on-surface-variant mb-6">Structuring your hospital’s operations to meet national excellence frameworks for hospitals and healthcare providers.</p>
                   <Link
                     href="#"
                     className="inline-flex items-center gap-1 text-label-md font-label-md text-secondary hover:text-primary transition-colors"
@@ -200,7 +200,7 @@ export default function AccreditationSupport() {
                   <div className="flex flex-col gap-2 p-4">
                     <span className="material-symbols-outlined text-3xl text-secondary mb-2">fact_check</span>
                     <h4 className="text-label-md font-label-md uppercase tracking-wider text-on-surface">Readiness Evaluation</h4>
-                    <p className="text-body-md font-body-md text-on-surface-variant text-sm">Final baseline assessment providing a definitive 'go/no-go' metric.</p>
+                    <p className="text-body-md font-body-md text-on-surface-variant text-sm">Final baseline assessment providing a definitive “go/no-go” metric.</p>
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@ export default function AccreditationSupport() {
                 <div>
                   <h2 className="text-headline-lg-mobile md:text-display-lg font-display-lg mb-6">Ready for Audit?</h2>
                   <p className="text-body-lg font-body-lg text-on-primary-container/80 mb-10 max-w-md">
-                    Don't leave your institution's reputation to chance. Secure our expert guidance to ensure a seamless accreditation process.
+                    Don’t leave your institution’s reputation to chance. Secure our expert guidance to ensure a seamless accreditation process.
                   </p>
                   <div className="bg-surface p-8 rounded-xl text-on-surface shadow-2xl relative">
                     <h3 className="text-headline-md font-headline-md mb-6">Request Readiness Consultation</h3>

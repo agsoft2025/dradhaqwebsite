@@ -222,7 +222,7 @@ export default function IsoCertification() {
                         Documentation Architecture
                       </h3>
                       <p className="text-body-md font-body-md text-on-surface-variant">
-                        Development of mandatory Quality Manuals, Standard Operating Procedures (SOPs), and policy frameworks tailored to your institution's specific operational realities.
+                        Development of mandatory Quality Manuals, Standard Operating Procedures (SOPs), and policy frameworks tailored to your institution’s specific operational realities.
                       </p>
                     </div>
                   </div>
@@ -297,7 +297,7 @@ export default function IsoCertification() {
                       <span className="material-symbols-outlined text-outline transition-transform duration-300 group-open:rotate-180">expand_more</span>
                     </summary>
                     <div className="px-6 pb-6 pt-0 text-body-md font-body-md text-on-surface-variant">
-                      The timeline varies based on your organization's size and current maturity level, but typically ranges from 3 to 6 months for a comprehensive ISO 9001 implementation.
+                      The timeline varies based on your organization’s size and current maturity level, but typically ranges from 3 to 6 months for a comprehensive ISO 9001 implementation.
                     </div>
                   </details>
                   {/* FAQ Item 2 */}

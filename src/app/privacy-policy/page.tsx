@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
               </nav>
               <h1 className="text-display-lg font-display-lg text-primary">Privacy Policy</h1>
               <p className="text-body-lg font-body-lg text-on-surface-variant mt-4 max-w-3xl">
-                Last updated: [Date] — This policy should be reviewed and approved by the company's legal advisor before publication.
+                Last updated: [Date] — This policy should be reviewed and approved by the company’s legal advisor before publication.
               </p>
             </div>
           </section>
@@ -156,7 +156,7 @@ export default function PrivacyPolicy() {
 
                 <section className="bg-surface-container-low p-6 rounded-lg border-l-4 border-secondary">
                   <p className="text-label-md font-label-md text-on-surface-variant">
-                    <strong>Legal Disclaimer:</strong> This Privacy Policy is provided as a template and should be reviewed and approved by the company's legal advisor before publication to ensure compliance with applicable laws and regulations.
+                    <strong>Legal Disclaimer:</strong> This Privacy Policy is provided as a template and should be reviewed and approved by the company’s legal advisor before publication to ensure compliance with applicable laws and regulations.
                   </p>
                 </section>
               </div>

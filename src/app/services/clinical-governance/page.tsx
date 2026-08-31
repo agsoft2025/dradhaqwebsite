@@ -153,7 +153,7 @@ export default function ClinicalGovernance() {
                     </div>
                     <h3 className="text-headline-md font-headline-md text-primary mb-4">Incident Reporting & Investigation</h3>
                     <p className="text-body-md font-body-md text-on-surface-variant">
-                      Implementing root cause analysis methodologies (RCA) and fostering a 'just culture' where reporting is encouraged without fear of punitive action.
+                      Implementing root cause analysis methodologies (RCA) and fostering a “just culture” where reporting is encouraged without fear of punitive action.
                     </p>
                   </div>
                   <Link

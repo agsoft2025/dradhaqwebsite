@@ -135,7 +135,7 @@ export async function saveToGoogleSheets(
   }
 }
 
-export async function getLeadsFromSheet(): Promise<any[]> {
+export async function getLeadsFromSheet(): Promise<unknown[][]> {
   try {
     const { sheets, spreadsheetId } = getSheetsClient();
 
