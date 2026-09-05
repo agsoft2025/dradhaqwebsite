@@ -13,7 +13,7 @@ const contactDetails = [
   {
     icon: 'call',
     label: 'Phone',
-    value: '+971 (0) 4 123 4567',
+    value: '+91 70933 08648',
     href: 'tel:+971041234567',
   },
   {
